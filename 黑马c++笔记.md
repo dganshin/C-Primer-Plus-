@@ -100,3 +100,13 @@ void test02(){
 
 
 # p116
+
+
+
+
+# p117
+
+class Person{
+public:
+        
+}
