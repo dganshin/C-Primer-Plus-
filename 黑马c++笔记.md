@@ -110,3 +110,26 @@ class Person{
 public:
         
 }
+
+
+# p118 友元
+
+## 全局函数做友元
+
+```cpp
+class Building
+{
+public:
+
+    Building 
+
+    string m_SittingRoom;
+
+private:
+    string m_BedRoom;
+
+
+}
+
+
+```
