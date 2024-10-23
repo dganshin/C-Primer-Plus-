@@ -1,5 +1,5 @@
-#ifndef STOCK00_H_
-#define STOCK00_H_
+#ifndef _STOCK00_H_
+#define _STOCK00_H_
 
 #include <iostream>
 #include <string>
