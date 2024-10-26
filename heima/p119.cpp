@@ -7,11 +7,14 @@ class GoodGay {
 public:
     void visit();
     GoodGay();
-
     Building *building;
 };
 
+// 9792
+
 class Building {
+    friend class GoodGay;
+
 public:
     string m_SittingRoom;
     Building();
@@ -31,7 +34,7 @@ GoodGay::GoodGay() {
 
 void GoodGay::visit() {
     cout << "GoodGay类正在访问:" << building->m_SittingRoom << endl;
-    // cout << "GoodGay类正在访问:" << building->m_BedRoom << endl;
+    cout << "GoodGay类正在访问:" << building->m_BedRoom << endl;
 }
 
 void test01() {
